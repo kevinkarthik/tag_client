@@ -1,0 +1,197 @@
+<app-popup-models></app-popup-models>
+
+
+<nav class="navbar navbar-expand-md nav_background">
+    <a class="navbar-brand header-title" style="font-weight: bold;color: white;">TAG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item" #toggleButton style="padding-left: 100px;">
+                <!-- <a class="nav-link header-categories dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" [ngClass]="{ 'fontweight':true, 'fontstyle':true }" (click)="mydrop()"><i
+                    class="fa fa-th fa-1x" aria-hidden="true"></i>&nbsp;&nbsp;CATEGORIES</a> -->
+
+                <a class="nav-link header-categories dropdown-toggle" data-toggle="dropdown" href="#" [ngClass]="{ 'fontweight':true, 'fontstyle':true }" (click)="mydrop()"><i
+                        class="fa fa-th fa-1x" aria-hidden="true"></i>&nbsp;&nbsp;CATEGORIES</a>
+
+                <div class="multi-level mydropdown-div menu" *ngIf="dropdown_visible">
+                    <ng-material-multilevel-menu [configuration]='config' [items]='appitems'>
+                    </ng-material-multilevel-menu>
+
+                </div>
+
+            </li>
+
+        </ul>
+
+
+
+
+
+
+        <!-- before login header -->
+
+        <!-- <ul class="navbar-nav header_signup">
+            <li class="nav-item">
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control border-right0 header-search-bar" placeholder="Search for courses">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-toggle="dropdown" href="#" [ngClass]="{ 'fontweight':true, 'fontstyle':true }">COUNSELLING</a>
+
+                <div class="dropdown-menu dropdown-noti2 pt0 pb0">
+                    <a class="dropdown-item dropdown-noti-item2 p0" href="#">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">Exam</a>
+                            <a href="#" class="list-group-item list-group-item-action">Get Expert Guidence</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After 12th</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After 10th</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After PG</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After UG</a>
+                            <a href="#" class="list-group-item list-group-item-action">Regular State Board</a>
+                            <a href="#" class="list-group-item list-group-item-action">All India Board</a>
+                            <a href="#" class="list-group-item list-group-item-action">All Boards</a>
+                        </div>
+                    </a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#" [ngClass]="{ 'fontweight':true, 'fontstyle':true }">ASK AN
+                EXPERT</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal" [ngClass]="{ 'fontweight':true, 'fontstyle':true }">LOG IN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4" href="#" style="border:2px solid white;border-radius:20px;" [ngClass]="{ 'fontweight':true, 'fontstyle':true }" data-toggle="modal" data-target="#myModal">SIGNUP</a>
+            </li>
+
+        </ul> -->
+
+        <!-- before login header -->
+
+
+        <!-- after login header -->
+
+        <ul class="navbar-nav header_signup">
+            <li class="nav-item">
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control border-right0 header-search-bar" placeholder="Search for courses">
+                        <div class="input-group-append">
+                            <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-toggle="dropdown" href="#" [ngClass]="{ 'fontweight':true, 'fontstyle':true }">COUNSELLING</a>
+
+                <div class="dropdown-menu dropdown-noti2 pt0 pb0">
+                    <a class="dropdown-item dropdown-noti-item2 p0" href="#">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">Exam</a>
+                            <a href="#" class="list-group-item list-group-item-action">Get Expert Guidence</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After 12th</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After 10th</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After PG</a>
+                            <a href="#" class="list-group-item list-group-item-action">Careers After UG</a>
+                            <a href="#" class="list-group-item list-group-item-action">Regular State Board</a>
+                            <a href="#" class="list-group-item list-group-item-action">All India Board</a>
+                            <a href="#" class="list-group-item list-group-item-action">All Boards</a>
+                        </div>
+                    </a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" [ngClass]="{ 'fontweight':true, 'fontstyle':true }">ASK AN
+                EXPERT</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" [ngClass]="{ 'fontweight':true, 'fontstyle':true }">SHORTLIST<span class="badge notification-span">10</span></a>
+
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa fa-bell notification-i" aria-hidden="true"></i> <span class="badge notification-span">10</span></a>
+                <div class="dropdown-menu dropdown-noti">
+                    <a class="dropdown-item dropdown-noti-item" href="#">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item width25p li-newstyle">
+                                <div class="width50 height50 border-radius20 ">
+                                    <img class="width100p height100p" src="assets/images/pro.png">
+                                </div>
+                            </li>
+                            <li class="list-group-item width75p li-newstyle">
+                                <div>
+                                    <h4 class="noti-drop-h4-1">Exam Name<span class="noti-drop-date">June 21</span></h4>
+                                    <h4 class="noti-drop-h4-2">t is a long established fact that a reader will be distracted by the readable content </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </a>
+
+                    <a class="dropdown-item dropdown-noti-item" href="#">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item width25p li-newstyle">
+                                <div class="width50 height50 border-radius20 ">
+                                    <img class="width100p height100p" src="assets/images/pro.png">
+                                </div>
+                            </li>
+                            <li class="list-group-item width75p li-newstyle">
+                                <div>
+                                    <h4 class="noti-drop-h4-1">Exam Name<span class="noti-drop-date">June 21</span></h4>
+                                    <h4 class="noti-drop-h4-2">t is a long established fact that a reader will be distracted by the readable content </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </a>
+
+                    <a class="dropdown-item dropdown-noti-item" href="#">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item width25p li-newstyle">
+                                <div class="width50 height50 border-radius20 ">
+                                    <img class="width100p height100p" src="assets/images/pro.png">
+                                </div>
+                            </li>
+                            <li class="list-group-item width75p li-newstyle">
+                                <div>
+                                    <h4 class="noti-drop-h4-1">Exam Name<span class="noti-drop-date">June 21</span></h4>
+                                    <h4 class="noti-drop-h4-2">t is a long established fact that a reader will be distracted by the readable content </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="row">
+                    <div class="col-sm-8 width50p"><a class="header-profile-name" href="#">Balaji</a></div>
+                    <div class="col-sm-4 width50p">
+                        <div class="header-profile-div">
+                            <img class="header-profile-img" src="assets/images/pro.png">
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+        <!-- ----------after login header--------- -->
+
+    </div>
+</nav>

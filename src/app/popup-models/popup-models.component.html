@@ -1,0 +1,201 @@
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div style="text-align: center;background-color: transparent;">
+            <h3><span style="background-color: rgba(9, 148, 136);color:white;padding: 10px;border-radius: 5px;">TAG</span>
+            </h3>
+        </div>
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header modal-header-login nav nav-pills">
+                <h4 class="modal-title signupmodal nav-link" data-toggle="tab" href="#tab1">LOGIN</h4>
+                <h4 class="modal-title signupmodal nav-link" data-toggle="tab" href="#tab2">SIGNUP</h4>
+
+            </div>
+            <!-- Modal body -->
+
+            <div class="modal-body tab-content">
+                <div class="tab-pane show active" id="tab1" role="tabpanel">
+
+                    <form>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user" style="color: teal;"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control borderleft" placeholder="Name">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-mobile" style="color: teal;"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control borderleft" placeholder="Mobile Number">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-envelope" style="color: teal;"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control borderleft" placeholder="Email ID">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock" style="color: teal;"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control borderleft" placeholder="Password">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-globe" style="color: teal;"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <select class="form-control borderleft">
+                                <option selected>Nationality</option>
+                            </select>
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                            <label class="custom-control-label" for="customCheck">Keep me sign in</label>
+                        </div>
+                    </form>
+                    <br>
+                    <button class="btn btn-outline-light  mx-auto d-block  btn-lg btn-block" style="background-color: rgb(243, 109, 56);border-radius: 30px;"> CREATE AN ACCOUNT</button>
+                </div>
+
+                <div class="tab-pane" id="tab2" role="tabpane2">
+                    <form>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-mobile" style="color: teal;"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control borderleft" placeholder="Email or Mobile Number">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock" style="color: teal;"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control borderleft" placeholder="Password">
+                        </div>
+
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                            <label class="custom-control-label" for="customCheck">Keep me sign in</label>
+                        </div>
+                    </form>
+                    <br>
+                    <button class="btn btn-outline-light  mx-auto d-block  btn-lg btn-block" style="background-color: rgb(243, 109, 56);border-radius: 30px;"> ACCESS TO MY
+                        ACCOUNT</button>
+                    <P style="text-align: center;">OR</P>
+                    <button class="btn btn-outline-light  mx-auto d-block  btn-lg btn-block" style="background-color: rgb(243, 109, 56);border-radius: 30px;"><i class="fa fa-facebook"
+                            aria-hidden="true"></i> FACEBOOK</button>
+                    <button class="btn btn-outline-light  mx-auto d-block  btn-lg btn-block" style="background-color: rgb(243, 109, 56);border-radius: 30px;"><i class="fa fa-envelope"
+                            aria-hidden="true"></i> GMAIL</button>
+                    <br>
+                    <p style="color:blue;text-align: center;" data-toggle="modal" data-target="#forgot" data-dismiss="modal">Forgot Password?</p>
+                    <p style="color: grey;text-align: center;">By Signing up,you agree to terms of Use and Privacy Policy
+                    </p>
+                </div>
+
+
+            </div>
+
+            <!-- Modal footer -->
+            <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div> -->
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The Modal -->
+<div class="modal fade" id="forgot">
+    <div class="modal-dialog ">
+        <div style="text-align: center;background-color: transparent;">
+            <h3><span style="background-color: rgba(9, 148, 136);color:white;padding: 10px;border-radius: 5px;">TAG</span>
+            </h3>
+        </div>
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header" style=" border-bottom: none !important">
+                <h4 class="modal-title" style="text-align: center;margin-left: 30%;">Forgot Password</h4>
+                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email or Mobile Number or Email ID">
+                </div>
+                <button type="button" class="btn btn-block  mx-auto d-block" style="background-color: rgb(243, 109, 56);border-radius: 30px;color: white;font-weight: bold;" data-toggle="modal" data-target="#otp" data-dismiss="modal">SUBMIT</button>
+                <!-- <p style="color:blue;text-align: center;" data-toggle="modal" data-target="#forgot" data-dismiss="modal">Forgot Password?</p> -->
+
+            </div>
+
+            <!-- Modal footer -->
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div> -->
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- otp -->
+<div class="modal fade" id="otp">
+    <div class="modal-dialog ">
+        <div style="text-align: center;background-color: transparent;">
+            <h3><span style="background-color: rgba(9, 148, 136);color:white;padding: 10px;border-radius: 5px;">TAG</span>
+            </h3>
+        </div>
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header" style=" border-bottom: none !important">
+                <h4 class="modal-title" style="text-align: center;margin-left: 45%;">OTP</h4>
+                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter Otp">
+                </div>
+                <button type="button" class="btn btn-block  mx-auto d-block" style="background-color: rgb(243, 109, 56);border-radius: 30px;color: white;font-weight: bold;">SUBMIT</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- otp -->

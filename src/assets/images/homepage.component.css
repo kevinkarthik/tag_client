@@ -1,0 +1,252 @@
+.nav-item {
+    padding: 1vw
+}
+
+.fontstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff
+}
+
+.fontweight {
+    font-weight: 700
+}
+
+.headerbackground {
+    background-image: url(../../../assets/images/college.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px
+}
+
+.layer {
+    background-color: rgba(9, 148, 136, .8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.signupmodal {
+    width: 50%;
+    color: rgba(9, 148, 136);
+    height: 100%;
+    line-height: 2.05;
+    text-align: center
+}
+
+.signupmodal:active {
+    background-color: #c5c2c2!important;
+    color: grey!important
+}
+
+.modal-header-login {
+    padding: 0!important
+}
+
+.input-group-text {
+    background-color: #fff!important;
+    border-right-style: none!important
+}
+
+.borderleft {
+    border-left-style: none!important
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #c5c2c2!important;
+    color: grey!important
+}
+
+#search {
+    max-width: 20%;
+    color: #fff
+}
+
+.change::-webkit-input-placeholder {
+    color: #fff
+}
+
+.change:-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+.change::-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+.change:-ms-input-placeholder {
+    color: #fff
+}
+
+#table2 {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+    border: grey
+}
+
+.bannerStyle div {
+    background-color: #ccc;
+    background-size: cover!important;
+    height: 100%
+}
+
+.bannerStyle img {
+    width: 100%;
+    height: 100%
+}
+
+.bannerStyle h1 {
+    text-align: center;
+    background: rgba(0, 0, 0, .32);
+    color: #fff;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.tile {
+    min-height: 200px;
+    background-color: #ccc;
+    background-size: cover!important
+}
+
+.tile h1 {
+    text-align: center;
+    line-height: 200px;
+    background: rgba(0, 0, 0, .32);
+    color: #fff;
+    margin: 0
+}
+
+.leftRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+    border-radius: 999px;
+    left: 0
+}
+
+.rightRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+    border-radius: 999px;
+    right: 0
+}
+
+.checked {
+    color: teal
+}
+
+.container-fluid {
+    padding: 0!important
+}
+
+.banner-find-text {
+    font-size: 4vw
+}
+
+.banner_h4 {
+    font-size: 1.5vw
+}
+
+.img_bg {
+    width: 2vh
+}
+
+.pop_up_header {
+    width: 100%;
+    text-align: center;
+    height: 10px;
+}
+
+.popup_txt {
+    color: #18aea3;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn_poup {
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width:1024px) {
+    .imgsize {
+        width: 45px
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    .imgsize {
+        width: 70px
+    }
+}
+
+@media only screen and (min-width:1281px) and (max-width:1350px) {
+    .imgsize {
+        width: 35px
+    }
+}
+
+@media only screen and (min-width:1537px) and (max-width:1920px) {
+    .imgsize {
+        width: 45px
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .imgsize {
+        width: 80px
+    }
+    .img_responsive {
+        width: 8vw;
+        /* height: 100%; */
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .banner-find-text {
+        font-size: 6vw!important
+    }
+    .banner_h4 {
+        font-size: 10px!important
+    }
+    .imgsize {
+        width: 100%
+    }
+    .image_div {
+        width: 50px;
+        height: 50px;
+    }
+    .img_responsive {
+        width: 100%;
+        height: 100%;
+    }
+    .img_responsive2 {
+        width: 100%;
+        height: 100%;
+    }
+    .image_div2 {
+        width: 100px;
+        height: 100px;
+    }
+}

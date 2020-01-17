@@ -1,0 +1,77 @@
+<app-other-header></app-other-header>
+
+<div class="afternav" style="  height: 30vh;width: 100%;">
+    <div class="layer" style="padding-left: 8vh;padding-top:5vh;">
+        <p style="color: white;"><i class="fa fa-long-arrow-left"></i>Home/Talk To Expert </p>
+
+        <h5 style="color: white;font-weight: 400;">Talk To Expert </h5>
+    </div>
+</div>
+<div class="container pb10 py-5">
+    <div class="details">
+
+        <div class="header">
+            <label class="top_header_message">Talk to Expert</label>
+        </div>
+
+        <div class="message">
+            <label class="upload_images1">Leave Your Message</label>
+            <textarea placeholder="Describe yourself here..." class="form-control" rows="5" name="text" style="background-color: #ffffff;">
+
+</textarea>
+        </div>
+
+
+
+
+        <!-- ImageUpload -->
+        <div class="upload_images">
+            <label class="upload_images1">Image  Upload</label>
+        </div>
+
+        <div class="details ">
+
+            <div class="uploadImg">
+                <img class="images " src="../../assets/images/User.png ">
+
+            </div>
+            <div class="details row">
+
+                <div class="form-group col-sm-6">
+                    <img class="edit_delete" src="../../assets/images/delete.png"> &nbsp;<label class="delet">Delete</label>
+                </div>
+
+
+            </div>
+
+            <div class="details">
+
+                <button [routerLink]="['/expert-guidance']" type="button" class="submit_button font-color-white">Add more</button>
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="bottom_height"></div>
+
+
+
+        <!-- submit -->
+
+
+
+        <div class=" text-center">
+            <button [routerLink]="['/expert-guidance']" type="button" class="submit_button font-color-white">Submit</button>
+        </div>
+
+
+
+    </div>
+
+
+
+
+</div>

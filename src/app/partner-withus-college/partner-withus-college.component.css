@@ -1,0 +1,215 @@
+.custom-files {
+    position: relative !important;
+    display: inline-block!important;
+    width: 100%!important;
+    border: 1px solid grey!important;
+    height: 150px!important;
+    margin-bottom: 0!important;
+}
+
+.custom-file-inputs {
+    position: relative!important;
+    z-index: 2!important;
+    width: 100%!important;
+    margin: 0!important;
+    opacity: 0!important;
+    height: 100%!important;
+}
+
+.custom-file-labels {
+    position: absolute!important;
+    top: 0!important;
+    right: 0!important;
+    left: 0!important;
+    z-index: 1!important;
+    padding: 2.375rem 3.75rem!important;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    color: #495057!important;
+    background-color: rgb(238, 238, 238)!important;
+    border: 1px solid #ced4da!important;
+    border-radius: .25rem!important;
+    width: 100%;
+    height: 100%;
+}
+
+.round_corner {
+    border: 2px solid #89b7d3!important;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #657272;
+}
+
+.top-view {
+    height: 200
+}
+
+.corners2 {
+    border-radius: 25px;
+    border: 2px solid #73ad21;
+    padding: 20px;
+    width: 200px;
+    height: 150px
+}
+
+.details {
+    flex-direction: row;
+    flex: 1;
+    width: 100%
+}
+
+.documents_upload {
+    flex-direction: row-reverse;
+    flex: 1;
+    width: 100%;
+    display: flex
+}
+
+.adhar {
+    text-align: center;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    padding: 20px;
+    width: 250px;
+    height: 150px
+}
+
+.adhar1 {
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    padding: 20px;
+    width: 250px;
+    height: 150px
+}
+
+.personal_info {
+    color: #656a6e;
+    font-size: 40;
+    font-weight: 600
+}
+
+.round_corner1 {
+    border: 2px solid #89b7d3!important;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 200px;
+    color: #89b7d3;
+}
+
+.submit_button {
+    bottom: 20;
+    border: 2px solid #19aba0!important;
+    border-radius: 25px;
+    background-color: #19aba0;
+    width: 300px;
+    height: 40px;
+}
+
+.font-header {
+    /* font-family: -webkit-pictograph; */
+    font-weight: 500;
+    color: #6b6f72;
+}
+
+.font-roundcircle {
+    font-weight: 500;
+    color: #dcdcdc;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.font_delete {
+    width: 50%;
+    font-weight: 450;
+    color: #e15b71;
+}
+
+.font_change {
+    width: 50%;
+    font-weight: 450;
+    color: #5aa4a0;
+}
+
+.font-color-white {
+    color: #fff;
+}
+
+.images {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.top_header {
+    height: 50px;
+    width: 100%;
+}
+
+.bottom_header {
+    height: 50px;
+    width: 100%;
+}
+
+.edit_delete {
+    text-align: center;
+    height: 10px;
+    width: 10px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.add_more {
+    background-color: #ff9a39;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.add_more_text {
+    margin-top: 5px;
+    height: 200;
+}
+
+.admin_space {
+    height: 50px;
+    background-color: #fff;
+}
+
+.admin_notes {
+    background-color: #fff;
+}
+
+@media screen and (max-width:575px) {
+    svg#rocket-smoke {
+        display: none;
+        visibility: hidden
+    }
+}
+
+.afternav {
+    background-image: url('http://2.citynews-genovatoday.stgy.ovh/~media/original-hi/57841679212311/leggere-libri-online-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(83, 82, 82, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

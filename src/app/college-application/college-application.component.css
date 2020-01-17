@@ -1,0 +1,234 @@
+/* confirm modal */
+
+.pop_up_header {
+    margin-top: 15px;
+    text-align: center;
+    color: #fe203b;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pop_up_txt {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #778486;
+}
+
+.submit_button {
+    /* border: 2px solid #ff8147!important; */
+    border-radius: 20px;
+    background-color: #ff8147!important;
+    /* width: 200px; */
+    /* height: 40px; */
+    text-align: center;
+    color: white;
+}
+
+.submit_button22 {
+    /* border: 2px solid #ff8147!important; */
+    border-radius: 20px;
+    background-color: white!important;
+    border: 2px solid #34b8ae!important;
+    /* width: 200px; */
+    /* height: 40px; */
+    text-align: center;
+    color: #34b8ae;
+}
+
+.submit_button1 {
+    text-align: center;
+}
+
+.cancel_button {
+    margin-top: 10px;
+    bottom: 20;
+    border: 2px solid #34b8ae!important;
+    border-radius: 25px;
+    background-color: #fff!important;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+.cancel_button1 {
+    text-align: center;
+}
+
+.submit_txt {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cancel_txt {
+    text-align: center;
+    color: #34b8ae;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* confirm modal */
+
+.submit-btn {
+    background-color: #ff9a39;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.custom-files {
+    position: relative !important;
+    display: inline-block!important;
+    width: 100%!important;
+    border: 1px solid grey!important;
+    height: 150px!important;
+    margin-bottom: 0!important;
+}
+
+.custom-file-inputs {
+    position: relative!important;
+    z-index: 2!important;
+    width: 100%!important;
+    margin: 0!important;
+    opacity: 0!important;
+    height: 100%!important;
+}
+
+.custom-file-labels {
+    position: absolute!important;
+    top: 0!important;
+    right: 0!important;
+    left: 0!important;
+    z-index: 1!important;
+    padding: 2.375rem 3.75rem!important;
+    font-weight: 400!important;
+    line-height: 1.5!important;
+    color: #495057!important;
+    background-color: rgb(238, 238, 238)!important;
+    border: 1px solid #ced4da!important;
+    border-radius: .25rem!important;
+    width: 100%;
+    height: 100%;
+}
+
+.add_more {
+    border: 1px solid grey !important;
+    border-radius: 20px !important;
+}
+
+.top-view {
+    height: 200
+}
+
+.corners2 {
+    border-radius: 25px;
+    border: 2px solid #73ad21;
+    padding: 20px;
+    width: 200px;
+    height: 150px
+}
+
+.details {
+    flex-direction: row;
+    flex: 1;
+    width: 100%
+}
+
+.documents_upload {
+    flex-direction: row-reverse;
+    flex: 1;
+    width: 100%;
+    display: flex
+}
+
+.adhar {
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    padding: 20px;
+    width: 250px;
+    height: 150px
+}
+
+.adhar1 {
+    margin-left: 40px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    padding: 20px;
+    width: 250px;
+    height: 150px
+}
+
+.personal_info {
+    color: #656a6e;
+    font-size: 40;
+    font-weight: 600
+}
+
+.add_more_btn {
+    border: 2px solid #099488!important;
+    border-radius: 20px;
+    color: #099488;
+    background-color: #fff;
+    /* width: 110px */
+}
+
+.round_corner {
+    border: 2px solid #099488!important;
+    border-radius: 20px;
+    color: #099488;
+    background-color: #fff;
+    /* width: 110px */
+}
+
+.round_corner1 {
+    border: 2px solid #099488!important;
+    border-radius: 20px;
+    color: #099488;
+    background-color: #fff;
+    /* width: 110px */
+}
+
+
+/* .submit_button {
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #545454!important;
+    border-radius: 10px;
+    background-color: #545454;
+    width: 300px
+} */
+
+@media screen and (max-width:575px) {
+    svg#rocket-smoke {
+        display: none;
+        visibility: hidden
+    }
+}
+
+
+/* after header */
+
+.afternav {
+    background-image: url('http://2.citynews-genovatoday.stgy.ovh/~media/original-hi/57841679212311/leggere-libri-online-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(83, 82, 82, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* after header */

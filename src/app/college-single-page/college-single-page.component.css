@@ -1,0 +1,377 @@
+.floating_card_btn {
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+}
+
+.floating_card_btn2 {
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgba(9, 148, 136);
+    border: 2px solid rgba(9, 148, 136);
+}
+
+.afternav {
+    background-image: url('http://2.citynews-genovatoday.stgy.ovh/~media/original-hi/57841679212311/leggere-libri-online-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(83, 82, 82, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imageoverlap {
+    margin-top: -100px;
+}
+
+.container {
+    position: relative;
+}
+
+.ml {
+    float: right;
+}
+
+.btn_border_radius {
+    border-radius: 30px;
+}
+
+.img {
+    height: 200px !important;
+}
+
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: #bac3c2;
+}
+
+.couese_price_btn {
+    cursor: pointer;
+    border: 2px solid #fd9843;
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fd9843;
+    width: 100%;
+}
+
+.review_rating_btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: teal;
+    text-align: center;
+    align-self: center;
+}
+
+.points-txt {
+    color: teal;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mapbody {
+    padding: 0 !important;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.browse_heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5e6a6e;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.check_box_list {
+    font-size: 18px;
+    color: #5e6a6e;
+}
+
+.card_view_container {
+    padding: 20px;
+}
+
+.card_style {
+    border-color: teal;
+    border-radius: 0 !important;
+}
+
+.card-body-style {
+    margin: 5px;
+    background-color: #fafafa;
+}
+
+.card-title {
+    font-weight: bold !important;
+}
+
+.card-text {
+    color: #5e6a6e !important;
+}
+
+.label-style {
+    color: #5e6a6e !important;
+    font-size: 13px;
+    padding-left: 2px;
+}
+
+.fa {
+    font-size: 14px;
+}
+
+.review_heading {
+    color: #5e6a6e;
+    font-size: 20px;
+}
+
+.rating_heading {
+    color: #5e6a6e;
+    font-size: 20px;
+    padding-left: 3%;
+}
+
+.rating_heading2 {
+    color: #5e6a6e;
+    font-size: 20px;
+    padding-left: 18%;
+}
+
+.review_name {
+    font-size: 18px;
+}
+
+.review_date {
+    color: #5e6a6e;
+    font-size: 16px;
+}
+
+.checked_R {
+    color: orange;
+    font-size: 20px;
+}
+
+.unchecked_R {
+    color: #bac3c2;
+    font-size: 20px;
+}
+
+.progress-bar {
+    background-color: #fd9843 !important;
+}
+
+.progress {
+    height: 10px !important;
+}
+
+.rating-text {
+    padding-left: 9%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #5b6c70;
+}
+
+.rating_perc {
+    font-size: 15px;
+    font-weight: bold;
+    color: #5b6c70;
+}
+
+.rating_label {
+    font-size: 15px;
+    color: #5b6c70;
+    font-weight: normal;
+    padding-left: 2%;
+}
+
+.review-btn {
+    width: 100%;
+    height: 60px;
+}
+
+.review-btn-text {
+    color: teal;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+.model-input-heading {
+    text-align: right;
+}
+
+.model_input-r {
+    height: 50px;
+}
+
+.submit-review {
+    border-radius: 15px;
+    width: 35%;
+    height: 35px;
+    background-color: #fd9843 !important;
+    border: none;
+    color: white;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.unchecked_m {
+    color: #bac3c2;
+    padding-left: 4px;
+    font-size: 16px;
+}
+
+.modal-title {
+    font-size: 15px;
+}
+
+.fontsize {
+    font-size: 20px;
+}
+
+.criteria-details {
+    font-weight: 500;
+    color: #5e6a6e;
+}
+
+.exam-details {
+    font-weight: 500;
+    color: #5e6a6e;
+}
+
+.img-thumbnail {
+    border: none !important
+}
+
+.event-title {
+    color: #687377;
+    text-align: center;
+}
+
+.event-text {
+    text-align: center;
+}
+
+.article-title {
+    color: #687377;
+    text-align: center;
+}
+
+.article-text {
+    text-align: center;
+}
+
+.article-bg {
+    background-color: #f4fafa
+}
+
+.contact-title {
+    color: #6c777b;
+}
+
+.collage-name {
+    color: teal !important;
+    font-weight: bold;
+}
+
+.mobile-no {
+    color: #0091ff !important;
+    font-weight: bold;
+}
+
+.contact-details {
+    color: #5e6a6e !important;
+    font-size: 15px !important;
+    font-weight: 700;
+}
+
+.qa-label {
+    padding-left: 10px;
+    font-size: 25px;
+    color: #fd9843;
+}
+
+.qa-toggle {
+    font-size: 18px;
+}
+
+.bg-dark {
+    background-color: teal!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.overlay-image {
+    background-image: url(https://icdn7.digitaltrends.com/image/digitaltrends/google_maps_share_location_1-500x300-c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+
+.overlay-color {
+    background-color: #1e1e1f80;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/************************media*****************************/
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1025px) and (max-width:1280px) {}
+
+@media only screen and (min-width: 1281px) and (max-width: 1350px) {}
+
+@media only screen and (min-width: 1351px) and (max-width:1366px) {}
+
+@media only screen and (min-width: 1367px) and (max-width:1440px) {}
+
+@media only screen and (min-width: 1441px) and (max-width: 1536px) {}
+
+@media only screen and (min-width: 1537px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (max-width: 600px) {
+    .imageoverlap {
+        margin-top: 0px;
+    }
+}
+
+
+/************************media*****************************/

@@ -1,0 +1,56 @@
+.afternav {
+    background-image: url('http://2.citynews-genovatoday.stgy.ovh/~media/original-hi/57841679212311/leggere-libri-online-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(83, 82, 82, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.shortlist_subhead {
+    color: #00a197;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 25%;
+}
+
+.table-border-new {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.shortlist_table {
+    width: 100%;
+}
+
+.shortlist_td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.shortlist_h6 {
+    color: #8080808a;
+    font-weight: 400;
+}
+
+.delete-btn {
+    background-color: #ff993f;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .shortlist_table {
+        width: 100%;
+        overflow-x: scroll;
+    }
+}

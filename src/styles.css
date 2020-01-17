@@ -1,0 +1,203 @@
+/* You can add global styles to this file, and also import other style files */
+
+.border_radius_100p {
+    border-radius: 100%;
+}
+
+.border-right0 {
+    border-right: 0 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.font-weight500 {
+    font-weight: 500;
+}
+
+.width50 {
+    width: 50px;
+}
+
+.width50p {
+    width: 50%;
+}
+
+.width25p {
+    width: 25%;
+}
+
+.width75p {
+    width: 75%;
+}
+
+.border-radius20 {
+    border-radius: 20px;
+}
+
+.border-none {
+    border: none;
+}
+
+.background-none {
+    background: none;
+}
+
+.li-newstyle {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.width60 {
+    width: 60px;
+}
+
+.width-33p {
+    width: 33%;
+}
+
+.height50 {
+    height: 50px;
+}
+
+.height60 {
+    height: 60px;
+}
+
+.height100p {
+    height: 100%
+}
+
+.width100p {
+    width: 100%;
+}
+
+.height200 {
+    height: 200px;
+}
+
+
+/* padding */
+
+.p0 {
+    padding: 0;
+}
+
+.p2vw {
+    padding: 2vw;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.pb0 {
+    padding-bottom: 0;
+}
+
+.pl0 {
+    padding-left: 0px;
+}
+
+.pr0 {
+    padding-right: 0px;
+}
+
+.pt2p {
+    padding-top: 2%;
+}
+
+.pt2vh {
+    padding-top: 2vh;
+}
+
+.pb2vh {
+    padding-bottom: 2vh;
+}
+
+.pb5vh {
+    padding-bottom: 5vh;
+}
+
+.pt8vh {
+    padding-top: 8vh;
+}
+
+.pt5vh {
+    padding-top: 5vh;
+}
+
+.pt5p {
+    padding-top: 5%;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pt10p {
+    padding-top: 10%;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pt14p {
+    padding-top: 14%;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.pt30p {
+    padding-top: 30%;
+}
+
+
+/* margin */
+
+.m0 {
+    margin: 0;
+}
+
+.mt0 {
+    margin-top: 0px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.mb5vh {
+    margin-bottom: 5vh;
+}
+
+.mt10vh {
+    margin-top: 10vh;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb13vh {
+    margin-bottom: 13vh;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

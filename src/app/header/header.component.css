@@ -1,0 +1,312 @@
+
+
+.category_dropdown::-webkit-scrollbar {
+    width: 10px;
+}
+
+.category_dropdown {
+    /* position: absolute; */
+    left: auto !important;
+    min-width: 30% !important;
+    width: auto;
+    height: 500px;
+    overflow-y: scroll;
+    /* background: white; */
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(9, 148, 136);
+    border-radius: 0;
+    border: 0;
+    /* min-width: 15rem; */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    color: white;
+}
+
+
+
+
+::ng-deep.mat-divider {
+    display: none !important;
+    margin: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.mydropdown-div {
+    left: auto !important;
+    min-width: 30% !important;
+    width: auto;
+    height: 500px;
+    overflow-y: scroll;
+    /* background: white; */
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(9, 148, 136);
+    border-radius: 0;
+    border: 0;
+    /* min-width: 15rem; */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    color: white;
+}
+
+
+.nav-item {
+    padding: 1vw;
+}
+
+.fontstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.fontweight {
+    font-weight: bold;
+}
+
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: rgb(197, 194, 194) !important;
+    color: grey !important;
+}
+
+
+.notification-span {
+    font-size: 12px !important;
+    position: relative !important;
+    top: -10px !important;
+    background: #fd9843 !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+
+.notification-i {
+    color: #fd9843 !important;
+    font-size: 25px !important;
+}
+
+.header-profile-div {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 3px solid white;
+    position: absolute;
+    top: -12px;
+}
+
+.header-profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.header-profile-name {
+    font-weight: bold;
+    color: white;
+    font-size: 1vw;
+}
+
+.header-categories {
+    font-size: 1vw;
+}
+
+.dropdown-noti {
+    left: -200px !important;
+    min-width: 22rem !important;
+    max-width: 22rem !important;
+}
+
+.dropdown-noti2 {
+    left: 0px !important;
+    min-width: 15rem !important;
+    max-width: 22rem !important;
+}
+
+.dropdown-noti2>.dropdown-item>.list-group>.list-group-item:hover {
+    color: #fff;
+    background-color: rgba(9, 148, 136);
+}
+
+a {
+    transition: all .3s ease-in-out;
+}
+
+.dropdown-noti-item {
+    border-bottom: 1px solid #8080802e;
+}
+
+.dropdown-noti-item2:active {
+    background-color: #80808038 !important;
+}
+
+.dropdown-noti-item:active {
+    background-color: #80808038 !important;
+}
+
+.noti-drop-h4-1 {
+    font-size: 1.3vw;
+}
+
+.noti-drop-h4-2 {
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+
+.noti-drop-date {
+    float: right;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.dropdown-item>ul>li>div>h4 {
+    white-space: normal;
+}
+
+.li-border-bottom1 {
+    border-bottom: 1px solid #80808036;
+}
+
+
+/************************media*****************************/
+
+@media only screen and (max-width: 1024px) {
+    .header_signup>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header_signup>li>a {
+        font-size: 9px;
+    }
+    .header-profile-name {
+        font-size: 9px;
+    }
+    .header-category {
+        font-size: 9px;
+    }
+    .notification-i {
+        font-size: 13px !important;
+    }
+    .notification-span {
+        font-size: 8px !important;
+    }
+    .header-profile-div {
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+        border: 3px solid white;
+        position: absolute;
+        top: -16px;
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1280px) {
+    .header_signup>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header_signup>li>a {
+        font-size: 14px;
+    }
+    .notification-i {
+        font-size: 20px !important;
+    }
+    .notification-span {
+        font-size: 8px !important;
+        position: relative !important;
+        top: -10px !important;
+        background: #fd9843 !important;
+        color: white !important;
+        border-radius: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1350px) {}
+
+@media only screen and (min-width: 1351px) and (max-width:1366px) {
+    .header_signup>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header_signup>li>a {
+        font-size: 15px;
+    }
+    .header-profile-name {
+        font-size: 15px;
+    }
+    .header-category {
+        font-size: 15px;
+    }
+    .notification-i {
+        color: #fd9843 !important;
+        font-size: 20px !important;
+    }
+    .notification-span {
+        font-size: 10px !important;
+        position: relative !important;
+        top: -10px !important;
+        background: #fd9843 !important;
+        color: white !important;
+        border-radius: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width:1440px) {
+    .header_signup>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1536px) {
+    .header_signup>li>a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1537px) and (max-width: 1920px) {
+    .header_signup>li>a {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (max-width: 600px) {
+    .header-title {
+        font-size: 5vw;
+    }
+    .header-categories {
+        font-size: 4vw;
+    }
+    .header_signup>li>a {
+        font-size: 12px;
+    }
+    .header-profile-name {
+        font-size: 14px;
+    }
+    .header-profile-div {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        border: 3px solid white;
+        position: absolute;
+        top: -16px;
+        margin-left: 5vw;
+    }
+}
+
+
+/************************media*****************************/
+
+
+

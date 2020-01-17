@@ -1,0 +1,109 @@
+.afternav {
+    background-image: url('http://2.citynews-genovatoday.stgy.ovh/~media/original-hi/57841679212311/leggere-libri-online-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.place>.form-control::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.layer {
+    background-color: rgba(83, 82, 82, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.details {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+}
+
+.top_header_normalmessage {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin-top: 5px;
+}
+
+.medium_type {
+    font-size: 18px;
+    font-weight: 700;
+    color: #00afa5;
+    margin-top: 10px;
+}
+
+.bg_layout {
+    background-color: #ff9d41;
+}
+
+.bg_header {
+    background-color: #00afa5;
+    padding-bottom: 20px;
+}
+
+.bg_header_txt {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bg_layout_txt {
+    font-size: 14px;
+    color: #00afa5;
+    font-weight: 500;
+}
+
+.school_height {
+    height: 3px;
+    background-color: #fff;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.header_search {
+    margin-top: 2%;
+}
+
+.select_options {
+    background-color: #ff9d42;
+}
+
+.font_white {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.font_rank {
+    color: #818e91;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.socila_media {
+    font-size: 12;
+    color: #818e91;
+    text-align: center;
+}
+
+.comparision {
+    font-size: 18px;
+    color: #818e91;
+    font-weight: 600;
+}

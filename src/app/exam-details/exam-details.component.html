@@ -1,0 +1,830 @@
+
+
+<app-other-header></app-other-header>
+
+    <!-- top baner start -->
+
+<div class="afternav" style="  height: 30vh;width: 100%;">
+    <div class="layer" style="padding-left: 8vh;padding-top:5vh;">
+        <p style="color: white;"><i class="fa fa-long-arrow-left"></i> Exams/Detail View</p>
+
+        <h5 style="color: white;font-weight: 400;">Exam Name</h5>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 col-md-8 col-sm-8 col-lg-8 py-5">
+            <h3 style="font-weight: 500;">Overview</h3>
+            <div style="width:100%">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    <span *ngIf="!isShown" class="text-primary " data-toggle="collapse" (click)="toggleShow()"
+                        data-target="#demo"><br>Read More <i class="fa fa-arrown-down"></i></span>
+                    <span *ngIf="isShown" id="demo" class="collapse">but also the leap into electronic typesetting,
+                        remaining essentially unchanged. It was
+                        popularised in
+                        the 1960</span>
+                        <span *ngIf="isShown" class="text-primary " data-toggle="collapse" (click)="toggleShow()" data-target="#demo"><br>Read Less</span> 
+                    </p>
+
+                <hr>
+            </div>
+        </div>
+        <div class="col-8 col-md-4 col-sm-8 col-lg-4">
+            <div class="imageoverlap">
+                <div class="card" style="width:300px">
+                    <h5 class="card-title exam-name pt-3 pl-4 ">Exam Name</h5>
+                    <div class="card-body body-center">
+                        <a href="#" class="btn stretched-link text-center px-5"
+                            style="background-color:teal;border-radius:30px;color: white;">GET UPDATES</a>
+                    </div>
+                    <p class="card-title h-title pt-4 ">GET QUESTION PAPER</p>
+                    <p class="card-title h-title pt-4">DOWNLOAD GUIDE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- top baner end -->
+
+
+
+
+
+<div style="position: relative" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" id="hi" href="javascript:void(0);" (click)="toTop('admitCard')">Admit Card</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('applicatioForm')">Application Form</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('dates')">Dates</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('questionPapers')">Question Papers
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('pattern')">Pattern</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('syllabus')">Syllabus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('results')">Results</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('answerKey')">Answer Key</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('cutoff')">Cutoff</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" (click)="toTop('counselling')">Counselling</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    
+    <!-- <Admit Card section Start-->
+    <div id="admitCard" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#demo"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;"> Admit Card </h5>
+
+            <br>
+        </div>
+
+        <div id="demo" class="collapse show">
+            <label class="exam-details-heading">JEE Admin Card 2019</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+    <!-- <Admit Card section End -->
+    <!-- Application Form  section start-->
+
+    <div id="applicatioForm" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#application"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;"> Application Form</h5>
+            <br>
+        </div>
+
+        <div id="application" class="collapse show">
+
+            <label class="exam-details-heading">JEE Application Form</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            <div class="row ">
+                <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row question-ppr-body ml-2 mr-2">
+                <div class="col-sm-2 p-0">
+                    <img class="question-ppr-img"
+                        src="https://d3i6fh83elv35t.cloudfront.net/static/2018/08/Books_HD_8314929977-1024x682.jpg" />
+                </div>
+                <div class="col-sm-8">
+                    <p class="question-ppr-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                </div>
+                <div class="col-sm-2"><button type="button" class="apply-btn">APPLY</button></div>
+            </div>
+
+            <div class="row question-ppr-body ml-2 mr-2">
+                <div class="col-sm-2 p-0">
+                    <img class="question-ppr-img"
+                        src="https://d3i6fh83elv35t.cloudfront.net/static/2018/08/Books_HD_8314929977-1024x682.jpg" />
+                </div>
+                <div class="col-sm-8">
+                    <p class="question-ppr-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                </div>
+                <div class="col-sm-2"><button type="button" class="apply-btn">APPLY</button></div>
+            </div>
+
+            <div class="row question-ppr-body ml-2 mr-2">
+                <div class="col-sm-2 p-0">
+                    <img class="question-ppr-img"
+                        src="https://d3i6fh83elv35t.cloudfront.net/static/2018/08/Books_HD_8314929977-1024x682.jpg" />
+                </div>
+                <div class="col-sm-8">
+                    <p class="question-ppr-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                </div>
+                <div class="col-sm-2"><button type="button" class="apply-btn">APPLY</button></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Application Form  section End-->
+
+    <!-- dates section start-->
+    <div id="dates" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse" data-target="#date"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Dates</h5>
+
+            <br>
+        </div>
+
+        <div id="date" class="collapse show">
+            <label class="exam-details-heading">Get All JEE Admin 2019 Important Dates</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. </p>
+
+            <label class="all-dates-heading">All Dates</label>
+            <div class="row">
+
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 exam-dates">
+                    <div class="row pt-2 ">
+                        <div class="col-sm-3"><label class="exam-dates-H">19th July 2019</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-3"><label class="exam-dates-H">19th July 2019</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row ">
+                        <div class="col-sm-3"><label class="exam-dates-H">19th July 2019</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row ">
+                        <div class="col-sm-3"><label class="exam-dates-H">19th July 2019</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-3"><label class="exam-dates-H">19th July 2019</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-3"><label class="exam-dates-H">19th July 2019</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- dates section end-->
+    <!-- Question Papers section start -->
+    <div id="questionPapers" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#questionpapers"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Question Papers</h5>
+            <p class="pr-4" style=" float:right">See All</p>
+            <br>
+        </div>
+
+        <div id="questionpapers" class="collapse show">
+
+            <label class="exam-details-heading">Download JEE Main Question Papers</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. </p>
+
+            <div class="row question-ppr-body ml-2 mr-2">
+                <div class="col-sm-2 p-0">
+                    <img class="question-ppr-img"
+                        src="https://d3i6fh83elv35t.cloudfront.net/static/2018/08/Books_HD_8314929977-1024x682.jpg" />
+                </div>
+                <div class="col-sm-8">
+                    <p class="question-ppr-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                </div>
+                <div class="col-sm-2"><button type="button" class="apply-btn">DOWNLOAD</button></div>
+            </div>
+
+
+            <div class="row question-ppr-body ml-2 mr-2">
+                <div class="col-sm-2 p-0">
+                    <img class="question-ppr-img"
+                        src="https://d3i6fh83elv35t.cloudfront.net/static/2018/08/Books_HD_8314929977-1024x682.jpg" />
+                </div>
+                <div class="col-sm-8">
+                    <p class="question-ppr-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                </div>
+                <div class="col-sm-2"><button type="button" class="apply-btn">DOWNLOAD</button></div>
+            </div>
+
+
+            <div class="row question-ppr-body ml-2 mr-2">
+                <div class="col-sm-2 p-0">
+                    <img class="question-ppr-img"
+                        src="https://d3i6fh83elv35t.cloudfront.net/static/2018/08/Books_HD_8314929977-1024x682.jpg" />
+                </div>
+                <div class="col-sm-8">
+                    <p class="question-ppr-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry</p>
+                </div>
+                <div class="col-sm-2"><button type="button" class="apply-btn">DOWNLOAD</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Question Papers section end -->
+    <!-- Pattern section -->
+    <div id="pattern" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#pattern-view"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Patterns</h5>
+            <br>
+        </div>
+
+        <div id="pattern-view" class="collapse show">
+
+            <label class="exam-details-heading">JEE Main Exam Pattern 2019</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            <div class="row">
+                <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1 check_box_list"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem
+                            ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Syllabus section -->
+    <div id="syllabus" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#syllabus-view"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Syllabus</h5>
+            <p class="pr-4" style=" float:right">See All</p>
+            <br>
+        </div>
+
+        <div id="syllabus-view" class="collapse show pt-5">
+            <label class="exam-details-heading">JEE Admin Syllabus 2019</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 exam-dates">
+                    <div class="row pt-2 ">
+                        <div class="col-sm-3"><label class="exam-dates-H">UNIT 1</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-3"><label class="exam-dates-H">UNIT 2</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row ">
+                        <div class="col-sm-3"><label class="exam-dates-H">UNIT 3</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row ">
+                        <div class="col-sm-3"><label class="exam-dates-H">UNIT 4</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-3"><label class="exam-dates-H">UNIT 5</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-3"><label class="exam-dates-H">UNIT 6</label></div>
+                        <div class="col-sm-9"><label class="exam-dates-D">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting
+                                industry</label>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- results section Start-->
+    <div id="results" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#results-view"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Results</h5>
+            <p class="pr-4" style=" float:right">See All</p>
+            <br>
+        </div>
+
+        <div id="results-view" class="collapse show">
+
+            <label class="results-heading">Result Dates</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially unchanged. </p>
+
+            <label class="results-heading">Steps to check the result</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+            <label class="results-heading">Marking Scheme</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+        </div>
+    </div>
+
+    <!-- Answer key section -->
+    <div id="answerKey" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#answerKey-view"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Answer Key</h5>
+            <p class="pr-4" style=" float:right">See All</p>
+            <br>
+        </div>
+
+        <div id="answerKey-view" class="collapse show">
+
+            <div class="row pl-4 pr-4">
+                <label class="results-heading">JEE Main April 2019 Final Answer Key- Paper 1</label>
+                <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book. </p>
+                    <div class="pl-4 pr-4 gray-bg">
+                        <label class="pdf-heading">Key PDF Document</label>
+                        <img src="https://seeklogo.com/images/A/adobe-pdf-logo-1480D328A9-seeklogo.com.png" alt="img"/>
+                    </div>
+
+                    <label class="results-heading">JEE Main April 2019 Final Answer Key- Paper 2</label>
+                    <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. </p>
+                        <div class="pl-4 pr-4 gray-bg">
+                            <label class="pdf-heading">Key PDF Document</label>
+                            <img src="https://seeklogo.com/images/A/adobe-pdf-logo-1480D328A9-seeklogo.com.png" alt="img"/>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- cutoff section -->
+    <div id="cutoff" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#cutoff-view"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Cutoff</h5>
+            <p class="pr-4" style=" float:right">See All</p>
+            <br>
+        </div>
+
+        <div id="cutoff-view" class="collapse show">
+
+            <label class="results-heading">Cutoff</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially unchanged. </p>
+
+            <label class="cutoff-heading">JEE Main Cutoff 2019</label>
+
+            <div class="row">
+
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 exam-dates">
+                    <div class="row">
+                        <div class="col-sm-8 border-right h-size">
+                            <label class="cutoff-table-H">Category</label>
+                        </div>
+                        <div class="col-sm-4 h-size"><label class="cutoff-table-HR">Cutoff</label>
+                        </div>
+
+                        <div class="col-sm-8 border-right col-size">
+                            <label class="cutoff-table-BL">Common Rank List (CRL)</label>
+                        </div>
+                        <div class="col-sm-4 col-size"><label class="cutoff-table-BR">89.758849</label></div>
+
+                        <div class="col-sm-8 border-right col-size ">
+                            <label class="cutoff-table-BL">Economically Weak Section (EWS)</label>
+                        </div>
+                        <div class="col-sm-4 col-size"><label class="cutoff-table-BR">78.2174869</label></div>
+
+                        <div class="col-sm-8 border-right col-size">
+                            <label class="cutoff-table-BL">Other Backward Class (OBC-NCL)</label>
+                        </div>
+                        <div class="col-sm-4 col-size"><label class="cutoff-table-BR">74.3156655</label></div>
+
+                        <div class="col-sm-8 border-right col-size ">
+                            <label class="cutoff-table-BL">Scheduled Cast (SC)</label>
+                        </div>
+                        <div class="col-sm-4 col-size"><label class="cutoff-table-BR">54.0128155</label></div>
+
+                        <div class="col-sm-8 border-right col-size">
+                            <label class="cutoff-table-BL">Scheduled Tribes (ST)</label>
+                        </div>
+                        <div class="col-sm-4 col-size"><label class="cutoff-table-BR">44.3345172</label></div>
+
+                        <div class="col-sm-8 border-right col-size">
+                            <label class="cutoff-table-BL">People with Disability (PwD)</label>
+                        </div>
+                        <div class="col-sm-4 col-size"><label class="cutoff-table-BR">0.1137173</label></div>
+                    </div>
+
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+
+            <label class="results-heading">JEE Main Cutoff For Previous Years - 2018,2017,2016,2015,2014</label>
+            <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                the leap into electronic typesetting, remaining essentially unchanged. </p>
+            <label class="cutoff-heading">JEE Main Cutoff 2019</label>
+
+            <div class="row">
+
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 exam-dates">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="cutoff-table-H">Category</th>
+                                <th class="cutoff-table-H">Qualified</th>
+                                <th class="cutoff-table-H">Max Marks</th>
+                                <th class="cutoff-table-H">Min Marks</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Common Rank List (CRL)</td>
+                                <td>111275</td>
+                                <td>200</td>
+                                <td>74</td>
+                            </tr>
+                            <tr>
+                                <td>Economically Weak Section (EWS)</td>
+                                <td>111275</td>
+                                <td>200</td>
+                                <td>74</td>
+                            </tr>
+                            <tr>
+                                <td>Other Backward Class (OBC-NCL)</td>
+                                <td>111275</td>
+                                <td>200</td>
+                                <td>74</td>
+                            </tr>
+                            <tr>
+                                <td>Scheduled Cast (SC)</td>
+                                <td>111275</td>
+                                <td>200</td>
+                                <td>74</td>
+                            </tr>
+                            <tr>
+                                <td>Scheduled Tribes (ST)</td>
+                                <td>111275</td>
+                                <td>200</td>
+                                <td>74</td>
+                            </tr>
+
+                            <tr>
+                                <td>People with Disability (PwD)</td>
+                                <td>111275</td>
+                                <td>200</td>
+                                <td>74</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- counselling section -->
+
+    <div id="counselling" class="container-fluid" style="padding-bottom:70px">
+        <div class="py-3 pl-4" data-toggle="collapse"  data-target="#counselling-view"
+            style="width:100%;background-color:#cad0d1;color:teal">
+            <h5 style="float: left;">Counselling</h5>
+            <p class="pr-4" style=" float:right">See All</p>
+            <br>
+        </div>
+
+        <div id="counselling-view" class="collapse show">
+
+            <div class="row pl-4 pr-4">
+                <label class="counsel-heading">Take a look at JoSSA 2018 Round 1 opening and closing ranks for perticipation colleges</label>
+                <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book. </p>
+                    <div class="pl-4 pr-4 gray-bg">
+                        <label class="pdf-heading">Key PDF Document</label>
+                        <img src="https://seeklogo.com/images/A/adobe-pdf-logo-1480D328A9-seeklogo.com.png" alt="img"/>
+                    </div>
+
+                    <label class="counsel-heading">Take a look at JoSSA 2018 Round 1 opening and closing ranks for perticipation colleges</label>
+                    <p class="pl-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. </p>
+                        <div class="pl-4 pr-4 gray-bg">
+                            <label class="pdf-heading">Key PDF Document</label>
+                            <img src="https://seeklogo.com/images/A/adobe-pdf-logo-1480D328A9-seeklogo.com.png" alt="img"/>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</div>

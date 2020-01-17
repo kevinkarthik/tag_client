@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+  li{
+font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+            }
+    ul{
+        padding: 0 !important;
+    }
+  }

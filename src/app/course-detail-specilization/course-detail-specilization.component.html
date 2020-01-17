@@ -1,0 +1,308 @@
+
+<app-other-header></app-other-header>
+
+<div class="container-fluid p0">
+
+    <div class="afternav" style="  height: 30vh;width: 100%;">
+        <div class="layer" style="padding-left: 8vh;padding-top:5vh;">
+            <p style="color: white;"><i class="fa fa-long-arrow-left"></i> Courses/Detail View</p>
+
+            <h5 style="color: white;font-weight: 400;">Computer Science and Engineering</h5>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-md-8 col-sm-8 col-lg-8 py-5">
+                <h3 style="font-weight: 500;">Overview</h3>
+                <div style="width:100%">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        <span *ngIf="!isShown" class="text-primary " data-toggle="collapse" (click)="toggleShow()"
+                            data-target="#demo"><br>Read More <i class="fa fa-arrown-down"></i></span>
+                        <span *ngIf="isShown" id="demo" class="collapse">but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was
+                            popularised in
+                            the 1960</span>
+                        <span *ngIf="isShown" class="text-primary " data-toggle="collapse" (click)="toggleShow()"
+                            data-target="#demo"><br>Read Less</span>
+                    </p>
+
+                    <hr>
+                </div>
+            </div>
+            <div class="col-8 col-md-4 col-sm-8 col-lg-4">
+                <div class="imageoverlap">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://chiefwritingwolf.files.wordpress.com/2015/09/old-covered-books-hd-wallpaper-1024x683.jpg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body text-center">
+                            <a href="#" class="btn stretched-link px-5"
+                                style="background-color:orange;border-radius:30px;color: white;">Download Guide</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div  class="py-3 pl-2 pl-lg-5 pl-md-5" data-toggle="collapse" (click)="toggleShow1()" data-target="#demo1"
+            style="width:100%;background-color:teal;color:white">
+            <h5 style="float: left;"> View Required Skill Set</h5>
+            <p *ngIf="isShown1" class="pr-3" style=" float:right"><i class="fa fa-angle-down"></i></p>
+            <p *ngIf="!isShown1" class="pr-3" style=" float:right"><i class="fa fa-angle-up"></i></p>
+            <br>
+        </div>
+        <!-- <hr> -->
+        <div id="demo1" class="collapse show">
+            <div class="row py-md-5 py-5">
+                <div class="col-sm-6 col-6 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-6 col-md-4 col-lg-4 ">
+                    <ul style="list-style-type: none;">
+                        <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                            dolor sit amet
+                        </li>
+                        <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                            dolor sit amet
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- View elligibility criteria -->
+        <div class="py-2">
+            <div  class="py-3 pl-2 pl-lg-5 pl-md-5" data-toggle="collapse" (click)="toggleShow2()" data-target="#demo2"
+                style="width:100%;background-color:teal;color:white">
+                <h5 style="float: left;">View Eligibility Criteria</h5>
+                <p *ngIf="isShown2" class="pr-3" style=" float:right"><i class="fa fa-angle-down"></i></p>
+                <p *ngIf="!isShown2" class="pr-3" style=" float:right"><i class="fa fa-angle-up"></i></p>
+                <br>
+            </div>
+            <div id="demo2" class="collapse show">
+                <div class="row pt-3">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <h5 class="criteria-heading">Lorem Ipsum is simply dummy text</h5>
+                            </li>
+                            <li>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been
+                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley of
+                                    type and scrambled it to make a type specimen book. It has survived not only five
+                                    centuries, but
+                                    also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row py-md-5 py;g-5">
+                    <div class="col-sm-6 col-6 col-md-4 col-lg-4 ">
+                        <ul style="list-style-type: none;">
+                            <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                dolor sit amet
+                            </li>
+                            <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                dolor sit amet
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-4 col-lg-4 ">
+                        <ul style="list-style-type: none;">
+                            <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                dolor sit amet
+                            </li>
+                            <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                dolor sit amet
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- View Course Curriculum -->
+        <div class="py-2">
+            <div class="py-3 pl-2 pl-lg-5 pl-md-5" data-toggle="collapse" (click)="toggleShow3()" data-target="#demo3"
+                style="width:100%;background-color:teal;color:white">
+                <h5 style="float: left;">View Course Curriculum</h5>
+                <p *ngIf="isShown3" class="pr-3" style=" float:right"><i class="fa fa-angle-down"></i></p>
+                <p *ngIf="!isShown3" class="pr-3" style=" float:right"><i class="fa fa-angle-up"></i></p>
+                <br>
+            </div>
+            <div id="demo3" class="collapse show">
+                <div class="mx-auto">
+                    <div class="row pt-4 pb-2">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <ul style="list-style-type: none;">
+                                <li>
+                                    <h5 class="curriculum-heading">Curriculum for this Course</h5>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div>
+                        <p class="left-text"></p>
+                    </div>
+                    <div class="row pl-md-5 pl-lg-5 pl-sm-0 pb-3">
+                        <div class="col-sm-9 pt-3 sem-text width-50p"> <i class="fa fa-plus plus-icon" aria-hidden="true"></i>  Semester 1</div>
+                        <div class="col-sm-3 pt-3 pl-5 sem-lec width-50p">15 Lectures</div>
+
+                        <div class="col-md-9 col-lg-9 col-sm-6 pt-3 sem-text width-50p"> <i class="fa fa-plus plus-icon" aria-hidden="true"></i>  Semester 2</div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 pt-3 pl-5 sem-lec width-50p">5 Lectures</div>
+
+                        <div class="col-sm-9 pt-3 sem-text width-50p"> <i class="fa fa-plus plus-icon" aria-hidden="true"></i>  Semester 3</div>
+                        <div class="col-sm-3 pt-3 pl-5 sem-lec width-50p">2 Lectures</div>
+
+                        <div class="col-sm-9 pt-3 sem-text width-50p"> <i class="fa fa-plus plus-icon" aria-hidden="true"></i>  Semester 4</div>
+                        <div class="col-sm-3 pt-3 pl-5 sem-lec width-50p">6 Lectures</div>
+
+                        <div class="col-sm-9 pt-3 sem-text width-50p"> <i class="fa fa-plus plus-icon" aria-hidden="true"></i>  Semester 5</div>
+                        <div class="col-sm-3 pt-3 pl-5 sem-lec width-50p">9 Lectures</div>
+
+                        <div class="col-sm-9 pt-3 sem-text width-50p"> <i class="fa fa-plus plus-icon" aria-hidden="true"></i>  Semester 6</div>
+                        <div class="col-sm-3 pt-3 pl-5 sem-lec width-50p">8 Lectures</div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- View Job Profles and Recruiter -->
+        <div class="py-2">
+            <div class="py-3 pl-2 pl-lg-5 pl-md-5" data-toggle="collapse" (click)="toggleShow5()" data-target="#demo5"
+                style="width:100%;background-color:teal;color:white">
+                <h5 style="float: left;">View Job Profles and Recruiters</h5>
+                <p *ngIf="isShown5" class="pr-3" style=" float:right"><i class="fa fa-angle-down"></i></p>
+                <p *ngIf="!isShown5" class="pr-3" style=" float:right"><i class="fa fa-angle-up"></i></p>
+                <br>
+            </div>
+            <div id="demo5" class="collapse show">
+
+                <div class="row py-2">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <h5 class="profile-heading">Job Profile</h5>
+                            </li>
+                            <li>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                    ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                            </li>
+                        </ul>
+                        <ul style="list-style-type: none;">
+                            <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </li>
+                            <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="mx-auto">
+                    <div class="row py-2">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <ul style="list-style-type: none;">
+                                <li>
+                                    <h5 class="profile-heading">Recruiters</h5>
+                                </li>
+                                <li>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                        ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                            <ul style="list-style-type: none;">
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                            <ul style="list-style-type: none;">
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-4 col-md-4 col-lg-4 ">
+                            <ul style="list-style-type: none;">
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                                <li class="py-1"><i class="fa fa-check-circle-o text-primary"></i> &nbsp;Lorem ipsum
+                                    dolor sit amet
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- View Job Profles and Recruiter -->
+
+</div>
+</div>
